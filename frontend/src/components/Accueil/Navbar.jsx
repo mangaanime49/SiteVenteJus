@@ -24,8 +24,8 @@ const Navbar = () => {
                 <AlignJustify className="search-icon" />
                 <button className="btn-category"> Choisir une catégorie</button>
             </div>
-            <a href="#">Accueil</a>
-            <a href="#">Notre boutique</a>
+            <a href="#bas">Accueil</a>
+            <a href="#btq">Notre boutique</a>
             <a href="#">À propos de nous</a>
             <a className="contact-btn" href="#">Contacter-nous</a>
         </nav>

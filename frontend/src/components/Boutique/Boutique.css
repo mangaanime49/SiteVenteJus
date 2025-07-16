@@ -58,12 +58,22 @@
   border-color: rgba(34, 197, 94, 0.3);
 }
 
-.produit-card img {
+.produit-card .img {
   width: 100%;
-  height: 200px;
+  height: 300px;
   object-fit: cover;
   border-radius: 12px;
   margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.produit-card .img img{
+  width: 100%;
+  height: 320px;
+  object-fit: contain;
+  border-radius: 30px;
+  margin-bottom: 1rem;
+  margin-left: -50px;
   transition: transform 0.3s ease;
 }
 

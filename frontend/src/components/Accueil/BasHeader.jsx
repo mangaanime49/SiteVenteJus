@@ -20,7 +20,7 @@ const BasHeader = () => {
             <div><Banana className="banana-icon" /></div>
             <div><Apple className="apple-icon" /></div>
             <div><Citrus className="citrus-icon" /></div>
-            <p>F4 Juice - Le goût naturel, la fraîcheur à chaque gorgée!</p>
+            <p id='bas'>F4 Juice - Le goût naturel, la fraîcheur à chaque gorgée!</p>
         </nav>
         <section className="hero-section">
             <h1>Bienvenue chez F<sub>4</sub> Juice</h1>
